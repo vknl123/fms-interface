@@ -1,4 +1,4 @@
-package com.mpcz.com.mpcz.fmsinterface;
+package com.mpcz.fmsinterface;
 
 import java.io.Serializable;
 
