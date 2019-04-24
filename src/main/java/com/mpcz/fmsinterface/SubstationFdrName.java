@@ -1,6 +1,6 @@
 package com.mpcz.fmsinterface;
 
-public interface SubstationFeederInterface extends BeanInterface {
+public interface SubstationFdrName extends BeanInterface {
 
     public long getSubstationId();
 

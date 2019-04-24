@@ -1,6 +1,7 @@
 package com.mpcz.fmsinterface;
 
 import java.sql.Timestamp;
+import java.util.Date;
 
 public interface SubstationInterface extends BeanInterface {
     public long getId();
@@ -24,12 +25,12 @@ public interface SubstationInterface extends BeanInterface {
     public String getCreatedBy();
     public void setCreatedBy(String createdBy);
 
-    public Timestamp getCreatedOn();
-    public void setCreatedOn(Timestamp createdOn);
+    public Date getCreatedOn();
+    public void setCreatedOn(Date createdOn);
 
     public String getUpdatedBy();
     public void setUpdatedBy(String updatedBy);
 
-    public Timestamp getUpdatedOn();
-    public void setUpdatedOn(Timestamp updatedOn);
+    public Date getUpdatedOn();
+    public void setUpdatedOn(Date updatedOn);
 }
