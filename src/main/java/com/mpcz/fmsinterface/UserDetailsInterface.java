@@ -30,8 +30,8 @@ public interface UserDetailsInterface extends BeanInterface {
     public void setMobileNo(String mobileNo);
 
     public Date getCreatedOn();
-    public void setCreatedOn(Timestamp createdOn);
+    public void setCreatedOn(Date createdOn);
 
     public Date getUpdatedOn();
-    public void setUpdatedOn(Timestamp updatedOn);
+    public void setUpdatedOn(Date updatedOn);
 }

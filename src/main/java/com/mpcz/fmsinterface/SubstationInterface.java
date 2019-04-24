@@ -26,11 +26,11 @@ public interface SubstationInterface extends BeanInterface {
     public void setCreatedBy(String createdBy);
 
     public Date getCreatedOn();
-    public void setCreatedOn(Timestamp createdOn);
+    public void setCreatedOn(Date createdOn);
 
     public String getUpdatedBy();
     public void setUpdatedBy(String updatedBy);
 
     public Date getUpdatedOn();
-    public void setUpdatedOn(Timestamp updatedOn);
+    public void setUpdatedOn(Date updatedOn);
 }

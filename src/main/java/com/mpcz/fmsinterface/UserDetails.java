@@ -39,9 +39,9 @@ public interface UserDetails extends BeanInterface {
 
     public Date getCreatedOn();
 
-    public void setCreatedOn(Timestamp createdOn);
+    public void setCreatedOn(Date createdOn);
 
     public Date getUpdatedOn();
 
-    public void setUpdatedOn(Timestamp updatedOn);
+    public void setUpdatedOn(Date updatedOn);
 }
