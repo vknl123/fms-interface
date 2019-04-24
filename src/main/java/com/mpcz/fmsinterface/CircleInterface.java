@@ -1,4 +1,4 @@
-package com.mpcz.com.mpcz.fmsinterface;
+package com.mpcz.fmsinterface;
 
 public interface CircleInterface extends BeanInterface{
 
