@@ -1,6 +1,7 @@
 package com.mpcz.fmsinterface;
 
 import java.sql.Timestamp;
+import java.util.Date;
 
 public interface UserInterface extends BeanInterface {
 
@@ -19,9 +20,9 @@ public interface UserInterface extends BeanInterface {
     public String getStatus();
     public void setStatus(String status);
 
-    public Timestamp getCreatedOn();
+    public Date getCreatedOn();
     public void setCreatedOn(Timestamp createdOn);
 
-    public Timestamp getUpdatedOn();
+    public Date getUpdatedOn();
     public void setUpdatedOn(Timestamp updatedOn);
 }

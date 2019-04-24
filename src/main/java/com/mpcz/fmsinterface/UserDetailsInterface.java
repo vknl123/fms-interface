@@ -1,6 +1,7 @@
 package com.mpcz.fmsinterface;
 
 import java.sql.Timestamp;
+import java.util.Date;
 
 public interface UserDetailsInterface extends BeanInterface {
 
@@ -28,9 +29,9 @@ public interface UserDetailsInterface extends BeanInterface {
     public String getMobileNo();
     public void setMobileNo(String mobileNo);
 
-    public Timestamp getCreatedOn();
+    public Date getCreatedOn();
     public void setCreatedOn(Timestamp createdOn);
 
-    public Timestamp getUpdatedOn();
+    public Date getUpdatedOn();
     public void setUpdatedOn(Timestamp updatedOn);
 }
