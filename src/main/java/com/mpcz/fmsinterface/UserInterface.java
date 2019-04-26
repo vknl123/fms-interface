@@ -1,6 +1,5 @@
 package com.mpcz.fmsinterface;
 
-import java.sql.Timestamp;
 import java.util.Date;
 
 public interface UserInterface extends BeanInterface {
