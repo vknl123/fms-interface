@@ -15,8 +15,8 @@ public interface CircleInterface extends BeanInterface {
 
     public void setName(String name);
 
-    public long getRegionId();
+    public RegionInterface getRegion();
 
-    public void setRegionId(long regionId);
+    public void setRegion(RegionInterface region);
 
 }

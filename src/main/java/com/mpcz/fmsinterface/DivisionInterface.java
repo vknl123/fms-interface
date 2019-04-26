@@ -14,8 +14,8 @@ public interface DivisionInterface extends BeanInterface {
 
     public void setName(String name);
 
-    public long getCircleId();
+    public CircleInterface getCircle();
 
-    public void setCircleId(long circleId);
+    public void setCircle(CircleInterface circle);
 
 }

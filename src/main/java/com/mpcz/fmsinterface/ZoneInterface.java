@@ -1,5 +1,7 @@
 package com.mpcz.fmsinterface;
 
+
+
 public interface ZoneInterface extends BeanInterface {
 
     public long getId();
@@ -14,9 +16,9 @@ public interface ZoneInterface extends BeanInterface {
 
     public void setName(String name);
 
-    public long getDivisionId();
+    public DivisionInterface getDivision();
 
-    public void setDivisionId(long divisionId);
+	public void setDivision(DivisionInterface division) ;
 
     public String getShortCode();
 
