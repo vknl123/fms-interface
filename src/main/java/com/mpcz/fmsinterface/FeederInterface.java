@@ -4,7 +4,8 @@ import java.sql.Timestamp;
 
 public interface FeederInterface extends BeanInterface {
 
-    public long getId();
+   
+	public long getId();
 
     public void setId(long fdrId);
 
