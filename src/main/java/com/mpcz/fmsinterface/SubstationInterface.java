@@ -33,4 +33,9 @@ public interface SubstationInterface extends BeanInterface {
 
     public Date getUpdatedOn();
     public void setUpdatedOn(Date updatedOn);
+    
+    public String getStatus() ;
+
+	public void setStatus(String status);
+	
 }
